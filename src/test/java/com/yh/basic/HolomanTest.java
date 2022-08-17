@@ -23,18 +23,6 @@ public class HolomanTest {
         //when
 
         //then
-        System.out.println(holoman);
-        assertThat(holoman.getHowLong()).isEqualTo(5);
-    }
-
-    @Test
-    public void beanImplicitTest() throws Exception{
-        //given
-
-        //when
-
-        //then
-        System.out.println(holoman);
-        assertThat(holoman.getHowLong()).isNotEqualTo(15);
+        assertThat(holoman.getHowLong()).isEqualTo(60);
     }
 }
