@@ -7,6 +7,8 @@
 5. [\[springboot\] 자동 설정(Auto-Configuration) 이해](https://yonghwankim-dev.tistory.com/507)
 6. [\[springboot\]\[Gradle\] 자동 설정 만들기 #1 Starter와 Auto-Configure](https://yonghwankim-dev.tistory.com/508)
 7. [\[springboot\]\[Gradle\] 자동 설정 만들기 #2 @ConfigurationProperties](https://yonghwankim-dev.tistory.com/510)
+8. [\[Springboot\] 내장 웹 서버(Embedded Web Servers)](https://yonghwankim-dev.tistory.com/520)
+
 
 
 
