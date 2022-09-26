@@ -10,4 +10,5 @@ public class EmbeddedWebserver2Application {
         SpringApplication.run(EmbeddedWebserver2Application.class, args);
     }
 
+
 }
