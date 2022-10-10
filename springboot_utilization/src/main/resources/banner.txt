@@ -1,0 +1,5 @@
+================================================
+YONGHWAN SPRING BOOT
+SPRING BOOT VERSION : ${spring-boot.version}
+Application Version : ${application.version}
+================================================
