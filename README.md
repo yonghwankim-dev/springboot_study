@@ -8,6 +8,10 @@
 6. [\[springboot\]\[Gradle\] 자동 설정 만들기 #1 Starter와 Auto-Configure](https://yonghwankim-dev.tistory.com/508)
 7. [\[springboot\]\[Gradle\] 자동 설정 만들기 #2 @ConfigurationProperties](https://yonghwankim-dev.tistory.com/510)
 8. [\[Springboot\] 내장 웹 서버(Embedded Web Servers)](https://yonghwankim-dev.tistory.com/520)
+9. [\[Springboot\] 23. SpringApplication #1 Banner, Customizing](https://yonghwankim-dev.tistory.com/530)
+10. [\[Springboot\] 23. SpringApplication #2 Application Events and Listeners](https://yonghwankim-dev.tistory.com/530)
+
+
 
 
 
