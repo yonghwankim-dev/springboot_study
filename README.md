@@ -11,10 +11,5 @@
 9. [\[Springboot\] 23. SpringApplication #1 Banner, Customizing](https://yonghwankim-dev.tistory.com/530)
 10. [\[Springboot\] 23. SpringApplication #2 Application Events and Listeners](https://yonghwankim-dev.tistory.com/530)
 11. [\[Springboot\] 23. SpringApplication #3 Web Environment](https://yonghwankim-dev.tistory.com/531)
-
-
-
-
-
-
-
+12. [\[Springboot\] 23. SpringApplication #4 Application Exit & Admin Features](https://yonghwankim-dev.tistory.com/532)
+13. [\[Springboot\] 24. Externalized Configuration](https://yonghwankim-dev.tistory.com/533)
