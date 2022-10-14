@@ -1,4 +1,4 @@
-package kr.yh;
+package kr.yh.springapplication02;
 
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
