@@ -39,7 +39,6 @@ public class SpringBootApplicationTest {
     @Value("${my.number.in.range}")
     private long myNumberInRange;
 
-
     @Test
     public void test(){
         //given
@@ -79,5 +78,4 @@ public class SpringBootApplicationTest {
         System.out.println(actual4);
         System.out.println(actual6);
     }
-
 }

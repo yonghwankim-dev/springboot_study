@@ -1,30 +1,23 @@
 package kr.yh.external_config;
 
-import org.springframework.beans.factory.annotation.Value;
+import lombok.AllArgsConstructor;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
 @Component
+@AllArgsConstructor
 public class SampleRunner implements ApplicationRunner {
 
-    @Value("${yonghwan.name}")
-    private String name;
-
-    @Value("${yonghwan.age}")
-    private int age;
-
-    @Value("${yonghwan.fullName}")
-    private String fullName;
-
-    @Value("${server.port}")
-    private int port;
+    private final YonghwanProperties yonghwanProperties;
 
     @Override
-    public void run(ApplicationArguments args) throws Exception {
-        System.out.println("name is " + name);
-        System.out.println("age is " + age);
-        System.out.println("fullName is " + fullName);
-        System.out.println("port is " + port);
+    public void run(ApplicationArguments args){
+        System.out.println("===================");
+        System.out.println(yonghwanProperties.getName());
+        System.out.println(yonghwanProperties.getAge());
+        System.out.println(yonghwanProperties.getFullName());
+        System.out.println(yonghwanProperties.getSessionTimeout());
+        System.out.println("===================");
     }
 }
