@@ -4,7 +4,9 @@ import kr.yh.SpringbootUtilizationApplication;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class ApplicationEventTest {
     @Test
     public void applicationStartingEventTest(){
@@ -21,14 +23,6 @@ public class ApplicationEventTest {
         application.setWebApplicationType(WebApplicationType.NONE);
 
         application.addListeners(new ApplicationStartedEventListener());
-        application.run();
-    }
-    
-    @Test
-    public void webApplicationType_REACTIVE_Test(){
-        SpringApplication application = new SpringApplication(SpringbootUtilizationApplication.class);
-        application.setWebApplicationType(WebApplicationType.REACTIVE); // WEBLRUX로 받는 경우
-
         application.run();
     }
 

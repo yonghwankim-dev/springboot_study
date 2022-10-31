@@ -1,18 +1,14 @@
 package kr.yh.external_config;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.env.Environment;
 import org.springframework.test.context.TestPropertySource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-//@TestPropertySource(properties = "yonghwan.name=YongHwan3")
-//@SpringBootTest(properties = "yonghwan.name=YonHwan2")
-@TestPropertySource(locations = {"classpath:/application.properties", "classpath:/test.properties"})
 @SpringBootTest
+@TestPropertySource(properties = {"spring.config.location = classpath:test.yml"})
 public class SpringBootApplicationTest {
 
     @Value("${yonghwan.name}")
@@ -23,9 +19,6 @@ public class SpringBootApplicationTest {
 
     @Value("${my.secret}")
     private String mySecret;
-
-    @Value("${my.number}")
-    private long myNumber;
 
     @Value("${my.bignumber}")
     private long myBigNumber;
@@ -65,17 +58,15 @@ public class SpringBootApplicationTest {
 
         //when
         String actual1 = mySecret;
-        long    actual2 = myNumber;
-        long    actual3 = myBigNumber;
-        String actual4 = myUuid;
-        long    actual5 = myNumberLessThanTen;
-        long    actual6 = myNumberInRange;
+        long actual2 = myBigNumber;
+        String actual3 = myUuid;
+        long actual4 = myNumberLessThanTen;
+        long actual5 = myNumberInRange;
         //then
         System.out.println(actual1);
         System.out.println(actual2);
         System.out.println(actual3);
-        System.out.println(actual5);
         System.out.println(actual4);
-        System.out.println(actual6);
+        System.out.println(actual5);
     }
 }

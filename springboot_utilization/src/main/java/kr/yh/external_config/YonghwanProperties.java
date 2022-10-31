@@ -22,6 +22,7 @@ public class YonghwanProperties {
     private String name;
     private int age;
     private String fullName;
+    private String dbName;
 
     @DurationUnit(ChronoUnit.SECONDS)
     private Duration sessionTimeout = Duration.ofSeconds(30);
