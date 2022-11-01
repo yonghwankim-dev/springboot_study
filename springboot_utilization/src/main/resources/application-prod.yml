@@ -2,6 +2,6 @@ yonghwan:
   name: yonghwan prod
 spring:
   config:
-    use-legacy-processing: true
-  profiles:
-    include: proddb
+    import: application-proddb.yml
+
+
