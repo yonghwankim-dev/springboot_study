@@ -14,4 +14,5 @@
 12. [\[Springboot\] 23. SpringApplication #4 Application Exit & Admin Features](https://yonghwankim-dev.tistory.com/532)
 13. [\[Springboot\] 24. Externalized Configuration](https://yonghwankim-dev.tistory.com/533)
 14. [\[Springboot\] 24. Externalized Configuration #2 @ConfigurationProperties](https://yonghwankim-dev.tistory.com/534)
+15. [\[SpringBoot\] 프로파일(Profile)](https://yonghwankim-dev.tistory.com/545)
 
