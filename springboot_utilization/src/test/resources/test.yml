@@ -12,6 +12,7 @@ my:
   bignumber: ${random.long}
   secret: ${random.value}
   uuid: ${random.uuid}
+
 logging:
   level:
     org:

@@ -1,0 +1,4 @@
+2022-11-01 17:07:06.209  INFO 7936 --- [main] kr.yh.SpringbootUtilizationApplication   : Starting SpringbootUtilizationApplication using Java 15.0.1 on LAPTOP-LFUMP8SR with PID 7936 (C:\Users\qkdlf\Study\SpringBoot\springboot_basic\springboot_utilization\build\classes\java\main started by qkdlf in C:\Users\qkdlf\Study\SpringBoot\springboot_basic\springboot_utilization)
+2022-11-01 17:07:06.212 DEBUG 7936 --- [main] kr.yh.SpringbootUtilizationApplication   : Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-11-01 17:07:06.213  INFO 7936 --- [main] kr.yh.SpringbootUtilizationApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-01 17:07:07.960  INFO 7936 --- [main] kr.yh.SpringbootUtilizationApplication   : Started SpringbootUtilizationApplication in 2.738 seconds (JVM running for 4.355)
