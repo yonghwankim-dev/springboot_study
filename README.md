@@ -17,7 +17,7 @@
 15. [\[SpringBoot\] 프로파일(Profile)](https://yonghwankim-dev.tistory.com/545)
 16. [\[SprinBoot\] 스프링부트 기본 로거 설정](https://yonghwankim-dev.tistory.com/546)
 17. [\[SprinBoot\] 로거(Logger) 커스터마이징](https://yonghwankim-dev.tistory.com/547)
-18. [SpringBoot] 스프링부트 테스트
+18. [\[SpringBoot\] 스프링부트 통합테스트, 단위테스트](https://yonghwankim-dev.tistory.com/549)
 19. [\[SprinBoot\] OutputCaputre 테스트 유틸리티](https://yonghwankim-dev.tistory.com/548)
 
 
