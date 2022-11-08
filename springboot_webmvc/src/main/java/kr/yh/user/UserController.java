@@ -9,8 +9,8 @@ public class UserController {
         return "hello";
     }
 
-    @PostMapping("/user")
-    public @ResponseBody User create(@RequestBody User user){
-        return null;
+    @PostMapping("/users/create")
+    public User create(@RequestBody User user){
+        return user;
     }
 }
