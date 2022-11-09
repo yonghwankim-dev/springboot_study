@@ -1,5 +1,6 @@
 package kr.yh.user;
 
+import org.assertj.core.api.Assertions;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.result.RequestResultMatchers;
+import org.springframework.web.HttpMediaTypeNotAcceptableException;
 
 import static org.hamcrest.Matchers.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
@@ -41,5 +43,18 @@ public class UserControllerTest {
                         is(equalTo("yonghwan"))))
                 .andExpect(jsonPath("$.password",
                         is(equalTo("123"))));
+    }
+
+    @Test
+    public void testCreateUser_XML() throws Exception {
+        String userjson = "{\"username\" : \"yonghwan\", \"password\" : \"123\"}";
+        mockMvc.perform(post("/users/create")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .accept(MediaType.APPLICATION_XML)
+                        .content(userjson))
+                .andExpect(status().isOk())
+                .andExpect(xpath("/User/username").string("yonghwan"))
+                .andExpect(xpath("/User/password").string("123"));
+
     }
 }
