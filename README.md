@@ -19,6 +19,9 @@
 17. [\[SprinBoot\] 로거(Logger) 커스터마이징](https://yonghwankim-dev.tistory.com/547)
 18. [\[SpringBoot\] 스프링부트 통합테스트, 단위테스트](https://yonghwankim-dev.tistory.com/549)
 19. [\[SpringBoot\] OutputCaputre 테스트 유틸리티](https://yonghwankim-dev.tistory.com/548)
+20. [\[SpringBoot\]\[WebMVC\] HttpMessageConverters](https://yonghwankim-dev.tistory.com/550)
+21. [\[SpringBoot\]\[WebMVC\] 정적 리소스 지원](https://yonghwankim-dev.tistory.com/551)
+
 
 
 
