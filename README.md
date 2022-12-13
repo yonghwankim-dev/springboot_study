@@ -26,6 +26,7 @@
 24. [\[SrpingBoot\] RestAPI에 대한 에러 핸들링](https://yonghwankim-dev.tistory.com/556)
 25. [\[SpringBoot\] Spring Security #1 MVC, WebFlux Security](https://yonghwankim-dev.tistory.com/557)
 26. [\[SpringBoot\] Spring Security #2 OAuth2](https://yonghwankim-dev.tistory.com/558)
+27. [\[SpringBoot\]\[WebMVC\] Hateoas](https://yonghwankim-dev.tistory.com/568)
 
 
 
