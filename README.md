@@ -27,6 +27,7 @@
 25. [\[SpringBoot\] Spring Security #1 MVC, WebFlux Security](https://yonghwankim-dev.tistory.com/557)
 26. [\[SpringBoot\] Spring Security #2 OAuth2](https://yonghwankim-dev.tistory.com/558)
 27. [\[SpringBoot\]\[WebMVC\] Hateoas](https://yonghwankim-dev.tistory.com/568)
+28. [\[SpringBoot\]\[WebMVC\] CORS(Cross-Origin Resource Sharing) 적용](https://yonghwankim-dev.tistory.com/569)
 
 
 
